@@ -48,3 +48,45 @@ header a
     width: 250px;
     border-radius: 10px;
 }
+
+input
+{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+input:focus
+{
+    outline: none;
+}
+
+button
+{
+    padding: 8px;
+    background: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background: #5f5f5f;
+}
+
+#message-1
+{
+    font-weight: 600;
+}
+#message-2
+{
+    font-weight: 600;
+}
+
+span
+{
+    color: purple;
+    font-weight: 600;
+}
