@@ -71,10 +71,12 @@ button
     cursor: pointer;
 }
 
-button:hover
+button:focus
 {
-    background: #5f5f5f;
+    outline: none;
 }
+
+
 
 #message-1
 {
