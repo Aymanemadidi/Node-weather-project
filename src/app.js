@@ -37,7 +37,7 @@ app.get('/about', (req, res)=>{
 app.get('/help', (req, res)=>{
     res.render('help', {
         title: 'Help',
-        message: 'This is a help message',
+        message: 'For any issue regarding this site please send kisses to Aymane El madidi',
         name: 'Aymane El madidi'
     });
 })
